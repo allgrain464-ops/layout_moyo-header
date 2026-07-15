@@ -1,9 +1,11 @@
-* {
+html {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  box-sizing: border-box;
+
   font-family: Roboto, sans-serif;
   font-weight: 500;
 }
@@ -20,7 +22,7 @@ body {
   padding: 0 50px;
 }
 
-.logo img {
+.logo__image {
   display: block;
   height: 40px;
 }
